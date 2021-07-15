@@ -5,3 +5,6 @@
 ## 0.2.0 - Changed details
 * Modified readme file
 * Changed line number color to be darker
+
+## 0.2.1 - Fixed version control
+* Error with publishing new version to minor update instead of patch
