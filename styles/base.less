@@ -19,9 +19,10 @@ atom-text-editor {
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
-    margin-right: 10px;
+    margin-right: 6px;
 
     .line-number {
+
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
@@ -52,7 +53,6 @@ atom-text-editor {
   }
 }
 
-
 // Syntax styles
 
 .syntax--comment {
@@ -81,6 +81,20 @@ atom-text-editor {
 
 .syntax--storage {
   color: @pink;
+}
+
+.syntax--markup {
+    color: @light-purple;
+}
+
+.syntax--hyperlink {
+    color: @light-blue;
+    text-decoration: underline;
+}
+
+.syntax--link.syntax--markup.syntax--gfm {
+    color: @light-blue;
+    text-decoration: underline;
 }
 
 .syntax--constant {
@@ -187,38 +201,46 @@ atom-text-editor {
   }
 }
 
-.syntax--entity {
-  &.syntax--name.syntax--function {
-    color: @blue;
-  }
-  &.syntax--name.syntax--type {
-    color: @light-orange;
-    text-decoration: underline;
-  }
-
-  &.syntax--other.syntax--inherited-class {
-    color: @green;
-  }
-  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
+.syntax--doctype {
     color: @light-blue;
-  }
+}
 
-  &.syntax--name.syntax--section {
-    color: @blue;
-  }
-
-  &.syntax--name.syntax--tag {
-    color: @blue;
-    text-decoration: none;
-  }
-
-  &.syntax--other.syntax--attribute-name {
-    color: @purple;
-
-    &.syntax--id {
-      color: @blue;
+.syntax--entity {
+    &.syntax--gfm {
+        color: @blue;
     }
-  }
+
+    &.syntax--name.syntax--function {
+        color: @blue;
+    }
+    &.syntax--name.syntax--type {
+        color: @light-orange;
+        text-decoration: underline;
+    }
+
+    &.syntax--other.syntax--inherited-class {
+        color: @green;
+    }
+    &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
+        color: @light-blue;
+    }
+
+    &.syntax--name.syntax--section {
+        color: @blue;
+    }
+
+    &.syntax--name.syntax--tag {
+        color: @blue;
+        text-decoration: none;
+    }
+
+    &.syntax--other.syntax--attribute-name {
+        color: @purple;
+
+        &.syntax--id {
+            color: @blue;
+        }
+    }
 }
 
 .syntax--meta {
@@ -291,7 +313,7 @@ atom-text-editor {
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @text-color-success;
   }
 }
 
