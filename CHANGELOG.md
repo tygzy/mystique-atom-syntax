@@ -11,3 +11,6 @@
 
 ## 0.2.3 - Fixed readme
 * Fixed the readme file
+
+## 0.3.0 - More colors!
+* Added much more colors to your files ( more specific words and tags with custom colors )

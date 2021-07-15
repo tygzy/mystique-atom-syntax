@@ -6,11 +6,11 @@
 // General colors
 @syntax-text-color: @txt-color;
 @syntax-cursor-color: white;
-@syntax-selection-color: lighten(@bg-color, 4%);
+@syntax-selection-color: #232a31;
 @syntax-background-color: @bg-color;
 
 // Guide colors
-@syntax-wrap-guide-color: @dark-gray;
+@syntax-wrap-guide-color: #232a31;
 @syntax-indent-guide-color: @gray;
 @syntax-invisible-character-color: @gray;
 
@@ -25,7 +25,7 @@
 @syntax-gutter-background-color-selected: @gt-bg-color-selected;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @blue;
-@syntax-color-added: @green;
-@syntax-color-modified: @orange;
-@syntax-color-removed: @red;
+@syntax-color-renamed: @text-color-info;
+@syntax-color-added: @text-color-success;
+@syntax-color-modified: @text-color-warning;
+@syntax-color-removed: @text-color-error;
