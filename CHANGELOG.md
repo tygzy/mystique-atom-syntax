@@ -8,3 +8,6 @@
 
 ## 0.2.1 - Fixed version control
 * Error with publishing new version to minor update instead of patch
+
+## 0.2.3 - Fixed readme
+* Fixed the readme file

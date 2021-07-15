@@ -6,7 +6,7 @@ Made by __tygzy__
 
 # Syntax theme
 
-`https://atom.io/themes/mystique-atom-ui`, or you can search for `mystique-atom-ui` in the Atom editor.
+`https://atom.io/themes/mystique-atom-syntax`, or you can search for `mystique-atom-syntax` in the Atom editor.
 
 # Install in the Atom editor
 
