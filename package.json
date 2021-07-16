@@ -1,7 +1,7 @@
 {
   "name": "mystique-atom-syntax",
   "theme": "syntax",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Mystique Syntax theme for Atom!",
   "keywords": [
     "syntax",
