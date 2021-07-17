@@ -8,6 +8,10 @@ Made by __tygzy__
 
 [Syntax theme](https://atom.io/themes/mystique-atom-syntax), or you can search for `mystique-atom-syntax` in the Atom editor.
 
+# Light theme
+
+[https://atom.io/themes/mystique-atom-syntax-light](https://atom.io/themes/mystique-atom-syntax-light), or you can search for `mystique-atom-syntax-light` in the Atom editor.
+
 ### Install in the Atom editor
 
 1. Go to `Atom > Preferences...`.
@@ -29,4 +33,4 @@ Go to `Atom > Preferences...`, then the `Themes` tab and then click the `Syntax 
 
 # Preview
 
-![Preview image 1](https://i.imgur.com/7wIknYx.png)
+![Preview image 1](https://i.imgur.com/JMdjKXJ.png)
