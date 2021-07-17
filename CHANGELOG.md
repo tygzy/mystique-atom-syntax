@@ -27,3 +27,6 @@
 
 ## 0.4.3 - Tidy up
 * Cleaned styling and nested styles
+
+## 0.4.4 - Preview image
+* Added more preview images
